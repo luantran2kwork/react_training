@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Content</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      html {
+        font-size: 62.5%;
+      }
+
+      :root {
+        --header-color: #099268;
+        --text-color: #12b886;
+        --background-color: #e6fcf5;
+      }
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: var(--background-color);
+      }
+
+      p,
+      a,
+      li,
+      td {
+        color: #444;
+        font-size: 1.6rem;
+      }
+
+      th {
+        background-color: var(--header-color);
+        color: white;
+        font-size: 2rem;
+        text-align: left;
+      }
+
+      td,
+      th {
+        padding: 1.6rem 2.4rem;
+        border: 0.1rem solid #ccc;
+      }
+
+      p {
+        margin: 2rem;
+        text-align: justify;
+        max-width: 40rem;
+        line-height: 1.6;
+        letter-spacing: 0.16rem;
+      }
+
+      a {
+        cursor: pointer;
+        margin-left: 2rem;
+      }
+
+      .headers {
+        margin: 0 2rem;
+      }
+
+      .div {
+        margin: 2rem;
+        width: 20rem;
+        height: 20rem;
+        border-radius: 50%;
+        border: 1.4rem solid var(--header-color);
+        background: url("../assets/dog.jpg") no-repeat center;
+        background-size: contain;
+      }
+
+      table {
+        margin-left: 2rem;
+        border-collapse: collapse;
+      }
+
+      tr:nth-child(even) {
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="headers">
+      <h1 style="color: var(--header-color); font-size: 4.8rem">This is H1</h1>
+      <h2 style="color: var(--header-color); font-size: 3.6rem">This is H2</h2>
+      <h3 style="color: var(--header-color); font-size: 2.8rem">This is H3</h3>
+      <h4 style="color: var(--header-color); font-size: 2rem">This is H4</h4>
+    </div>
+    <div class="div" style="text-align: center"></div>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia iusto
+      sit blanditiis <span><strong>This is span tag</strong></span> qui tempora
+      assumenda nostrum eum perferendis, reprehenderit facere consectetur
+      asperiores consequuntur optio impedit unde voluptatum. Commodi, iste
+      consectetur.
+    </p>
+    <a href="https://www.google.com.vn/" target="_blank">Google</a>
+    <ol style="margin: 1rem 4rem">
+      <li>ol item 1</li>
+      <li>ol item 2</li>
+      <li>ol item 3</li>
+    </ol>
+
+    <ul style="margin: 1rem 4rem">
+      <li>li item 1</li>
+      <li>li item 2</li>
+      <li>li item 3</li>
+    </ul>
+
+    <table style="margin-top: 1rem">
+      <thead>
+        <tr>
+          <th>Header 1</th>
+          <th>Header 2</th>
+          <th>Header 3</th>
+          <th>Header 4</th>
+          <th>Header 5</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Data 1</td>
+          <td>Data 2</td>
+          <td>Data 3</td>
+          <td>Data 4</td>
+          <td>Data 5</td>
+        </tr>
+        <tr>
+          <td>Data 1</td>
+          <td>Data 2</td>
+          <td>Data 3</td>
+          <td>Data 4</td>
+          <td>Data 5</td>
+        </tr>
+        <tr>
+          <td>Data 1</td>
+          <td>Data 2</td>
+          <td>Data 3</td>
+          <td>Data 4</td>
+          <td>Data 5</td>
+        </tr>
+        <tr>
+          <td>Data 1</td>
+          <td>Data 2</td>
+          <td>Data 3</td>
+          <td>Data 4</td>
+          <td>Data 5</td>
+        </tr>
+        <tr>
+          <td>Data 1</td>
+          <td>Data 2</td>
+          <td>Data 3</td>
+          <td>Data 4</td>
+          <td>Data 5</td>
+        </tr>
+        <tr>
+          <td>Data 1</td>
+          <td>Data 2</td>
+          <td>Data 3</td>
+          <td>Data 4</td>
+          <td>Data 5</td>
+        </tr>
+        <tr>
+          <td>Data 1</td>
+          <td>Data 2</td>
+          <td>Data 3</td>
+          <td>Data 4</td>
+          <td>Data 5</td>
+        </tr>
+        <tr>
+          <td>Data 1</td>
+          <td>Data 2</td>
+          <td>Data 3</td>
+          <td>Data 4</td>
+          <td>Data 5</td>
+        </tr>
+        <tr>
+          <td>Data 1</td>
+          <td>Data 2</td>
+          <td>Data 3</td>
+          <td>Data 4</td>
+          <td>Data 5</td>
+        </tr>
+        <tr>
+          <td>Data 1</td>
+          <td>Data 2</td>
+          <td>Data 3</td>
+          <td>Data 4</td>
+          <td>Data 5</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Footer data 1</td>
+          <td>Footer data 2</td>
+          <td>Footer data 3</td>
+          <td>Footer data 4</td>
+          <td>Footer data 5</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>

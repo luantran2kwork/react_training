@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap");
+@font-face {
+  font-family: "Dauphin";
+  src: URL("../assets/Dauphin.ttf") format("truetype");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 1.4rem;
+  line-height: 2rem;
+}
+
+header,
+main,
+footer {
+  max-width: 96rem;
+  margin: 0rem auto;
+}
+
+.languages {
+  text-align: center;
+  margin: 2rem 1.5rem 0.5rem;
+  font-size: 1.4rem;
+  line-height: 2rem;
+}
+
+.languages a {
+  color: #000;
+  padding: 0.2rem;
+  font-size: 1.2rem;
+}
+
+.languages a:hover {
+}
+
+h1,
+h2 {
+  font-family: "Dauphin", serif;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 400;
+}
+
+h1 {
+  text-align: center;
+  font-size: 7rem;
+  line-height: 9rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  margin: 1.5rem 0;
+  font-size: 1.4rem;
+  text-align: left;
+  font-weight: 700;
+}
+
+h4 {
+  margin: 1rem 1rem 0.5rem 1rem;
+  font-size: 1.48rem;
+  line-height: 1.8rem;
+  text-align: center;
+  font-style: italic;
+}
+
+h5 {
+  margin: 0.5rem 1rem 2rem 1rem;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  text-align: center;
+}
+
+p {
+  word-spacing: -0.015rem;
+  font-size: 1.4rem;
+  text-align: justify;
+  margin: 0 0 1.5rem 0;
+}
+
+a:link:hover {
+  color: #dd0000;
+}
+
+.lnk {
+  font-weight: 700;
+  color: #dd0000;
+}
+
+hr {
+  clear: both;
+  border: 0;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
+  opacity: 1;
+  background-color: transparent;
+}
+
+header {
+  margin-top: 12rem;
+}
+
+.panes {
+  margin-top: 1.5rem;
+}
+
+.img-banners {
+  text-align: center;
+}
+
+.img-banners img {
+  margin: 10px 5px 0 5px;
+  border: 0;
+}
+
+.donate {
+  clear: both;
+  margin: 10px 3% 10px 3%;
+  text-align: center;
+}
+
+.packages a {
+  color: #000;
+}
+
+.translation {
+  margin: 0 3%;
+}
+
+footer {
+  margin-bottom: 12rem;
+}
+
+footer a {
+  display: block;
+  text-align: center;
+  color: #000;
+  text-decoration: none;
+}

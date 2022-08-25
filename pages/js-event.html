@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Handling</title>
+    <style>
+      body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #f0f0f0;
+      }
+      form {
+        padding: 40px;
+        border-radius: 10px;
+        background-color: white;
+        max-width: 400px;
+      }
+
+      .input-group input[tyoe] {
+        margin: 10px 0;
+      }
+
+      .gender-input .input-group {
+        display: inline-block;
+      }
+
+      .date-input {
+        display: flex;
+        gap: 20px;
+      }
+
+      .date-input .input-group input {
+        width: 32px;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="">
+      <div class="input-group">
+        <label for="name">Tên</label>
+        <input type="text" id="name" />
+      </div>
+      <div class="input-group">
+        <label for="address">Địa chỉ</label>
+        <input type="text" id="address" />
+      </div>
+      <div class="input-group">
+        <label for="phone">Số điện thoại</label>
+        <input type="text" id="phone" />
+      </div>
+      <div class="gender-input">
+        <div class="input-group">
+          <label for="gender">Nam</label>
+          <input type="radio" name="gender" value="male" id="gender" />
+        </div>
+        <div class="input-group">
+          <label for="gender">Nữ</label>
+          <input type="radio" name="gender" value="female" id="gender" />
+        </div>
+      </div>
+      <div class="date-input">
+        <div class="input-group">
+          <label for="day">Ngày</label>
+          <input type="number" name="day" id="day" />
+        </div>
+        <div class="input-group">
+          <label for="month">Tháng</label>
+          <input type="number" name="month" id="month" />
+        </div>
+        <div class="input-group">
+          <label for="year">Năm</label>
+          <input type="number" name="year" id="year" />
+        </div>
+      </div>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
